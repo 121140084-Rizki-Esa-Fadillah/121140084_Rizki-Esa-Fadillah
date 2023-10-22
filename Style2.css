@@ -1,0 +1,135 @@
+body {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    gap: 375px;
+    background-color: #1f242d;
+    color: white;
+    height: 130px;
+    padding: 10px 25px 20px 25px;
+    border-radius: 0 0 10px 10px;
+}
+.logo {
+    width: 110px;
+    height: 140px;
+    background-color: white;
+    border-radius: 10px;
+}
+.logo img {
+    width: 90px;
+    height: 120px;
+    padding: 10px;
+}
+header p {
+    padding-top: 25px;
+    font-size: 28px;
+}
+
+section {
+    background-color: rgb(188, 209, 232);
+    margin: 15px 10px 15px 10px;
+    border-radius: 10px;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.sidebar {
+    background-color: #1f242d;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+    color: #6ac3e9;
+    scale: 1.25;
+}
+
+form {
+    margin: 0 auto;
+    padding: 10px 50px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    background-color: rgb(227, 236, 245);
+    width: 700px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   font-weight: bold;
+   font-size: larger;
+   margin-left: 200px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f242d;
+    color: white;
+    padding: 2px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
