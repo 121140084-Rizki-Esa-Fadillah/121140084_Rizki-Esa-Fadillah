@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style2.css">
+    <script src="script.js"></script>
+    <title>Halaman Formulir</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://github.com/121140084-Rizki-Esa-Fadillah/Folder-Website/blob/main/Image/Logo_Itera.png?raw=true" alt="">
+        </div>
+        <p><strong>Pendaftaran UKM E-Sport</strong></p>
+    </header>
+    <section>
+        <div class="sidebar">
+            <ul>
+                <li><a href="Halaman_Utama.html">Beranda</a></li>
+                <li><a href="Halaman_Formulir.html">Formulir Pendaftaran</a></li>
+                <li><a href="Halaman_Tabel.html">Data Pendaftar</a></li>
+            </ul>
+        </div>
+        <!-- Bagian Formulir -->
+        <div class="Formulir">
+            <div class="Data_Diri">
+                <form action="Halaman_Tabel.html" method="get" onsubmit="Input(event);">
+                    <label for="nama">Nama :</label>
+                    <input type="text" id="nama" name="nama" required><br><br>
+
+                    <label for="nim">NIM :</label>
+                    <input type="text" id="nim" name="nim" required><br><br>
+
+                    <label for="program_studi">Program Studi :</label>
+                    <input type="text" id="program_studi" name="program_studi" required><br><br>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="jenis_kelamin">Jenis Kelamin:</label>
+                    <select id="jenis_kelamin" name="jenis_kelamin" required>
+                        <option value="Laki-laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select><br><br>
+
+                    <label for="tanggal_lahir">Tanggal Lahir:</label>
+                    <input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+
+                    <label for="nomor">Nomor HP :</label>
+                    <input type="text" id="nomor" name="nomor" required><br><br>
+                    
+                    <label for="nama_game">Nama Game E-sport:</label>
+                    <select id="nama_game" name="nama_game" required>
+                        <option value="Valorant">Valorant</option>
+                        <option value="League of Legends">League of Legends</option>
+                        <option value="Mobile Legends">Mobile Legends</option>
+                        <option value="Dota 2">Dota 2</option>
+                        <option value="PUBG">PUBG</option>
+                        <option value="E-Football">E-Football</option>
+                        <option value="Counter-Strike">Counter-Strike</option>
+                    </select><br><br>
+
+                    <label for="id_game">ID Game:</label>
+                    <input type="text" id="id_game" name="id_game" required><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p><strong>Copyright &copy; 2023 Rizki Esa Fadillah</strong></p>
+    </footer>
+</body>
+</html>
